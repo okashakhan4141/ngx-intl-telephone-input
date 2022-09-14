@@ -4,7 +4,7 @@
 
 **ngx-intl-telephone-input** is an **_Angular Plugin_** that validates user's input, provides formatting `(both national and international)` of all international countries phone numbers and returns, input value entered along with validation status on every keystroke. It has a dropdown showing information about country flag, name and dial-code. Depending uopn the options selected, adds placeholder according to selected country and formats the input.
 
-More in [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section.
+(More in [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section.)
 
 ![preview-intl-telephone-input](https://user-images.githubusercontent.com/71649242/190262842-94e5d702-e519-470d-818c-b08172ea8ee5.PNG)
 
@@ -26,6 +26,53 @@ npm i ngx-intl-telephone-input
 > Note: Don't forget to add `awesome-phonenumber@3.3.0` or else it will not work properly.
 
 ## Basic Usage
+
+###### Import
+
+Add `NgxIntlTelephoneInputModule` into your module file:
+
+```
+import { NgxIntlTelephoneInputModule } from 'ngx-intl-telephone-input'
+```
+
+```
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    NgxIntlTelephoneInputModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+###### Example
+
+```
+<intl-telephone-input
+      [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
+      [enablePlaceholder]="true"
+      [searchCountryFlag]="true"
+      [separateDialCode]="false"
+      [enableAutoCountrySelect]="true"
+      [searchCountryField]="SearchCountryField.All"
+      [phoneValidation]="false"
+      [numberFormat]="PhoneNumberFormat.International"
+      [inputId]="'phone'"
+      (onChange)="onInputChange($event)"
+    >
+    </intl-telephone-input>
+```
+
+> Note: Don't forget to add `CountryISO`, `SearchCountryField` and `PhoneNumberFormat` enums into your .ts file. Add below line of code to import all of them.
+
+```
+import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-telephone-input';
+```
 
 ## Options
 
