@@ -27,7 +27,7 @@ npm i ngx-intl-telephone-input
 
 ## Basic Usage
 
-###### Import
+#### Import
 
 Add `NgxIntlTelephoneInputModule` into your module file:
 
@@ -50,7 +50,7 @@ import { NgxIntlTelephoneInputModule } from 'ngx-intl-telephone-input'
 export class AppModule { }
 ```
 
-###### Example
+#### Example
 
 ```
 <intl-telephone-input
@@ -68,7 +68,7 @@ export class AppModule { }
     </intl-telephone-input>
 ```
 
-> Note: Don't forget to add `CountryISO`, `SearchCountryField` and `PhoneNumberFormat` enums into your .ts file. Add below line of code to import all of them.
+> Note: Don't forget to add [CountryISO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/country-iso.enum.ts), [SearchCountryField](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/searchCountryField.enum.ts) and [PhoneNumberFormat](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/phoneNumberFormat.enum.ts) enums into your .ts file. Add below line of code to import all of them.
 
 ```
 import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-telephone-input';
