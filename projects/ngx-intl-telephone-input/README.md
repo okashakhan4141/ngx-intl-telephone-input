@@ -23,7 +23,9 @@ npm i ngx-intl-telephone-input
 
 > Note: Don't forget to add `awesome-phonenumber@3.3.0` or else it will not work properly.
 
-## Code scaffolding
+## Basic Usage
+
+## Options
 
 Run `ng generate component component-name --project ngx-intl-telephone-input` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-intl-telephone-input`.
 
