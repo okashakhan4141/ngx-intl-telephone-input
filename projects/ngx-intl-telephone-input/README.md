@@ -84,6 +84,6 @@ import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-tele
 
 Email me at `okashakhan4141@gmail.com`
 
-LinkedIn Profile -> [okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
+LinkedIn Profile -> [https://www.linkedin.com/in/okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
 
-Github Profile -> [okashakhan4141](https://github.com/okashakhan4141)
+Github Profile -> [https://github.com/okashakhan4141](https://github.com/okashakhan4141)
