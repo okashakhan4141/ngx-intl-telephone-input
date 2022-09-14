@@ -77,25 +77,25 @@ import {
 
 ## Options
 
-| Parameters               | Data Type            | Default Value                     | Description |
-| ------------------------ | -------------------- | --------------------------------- | ----------- |
-| cssClass                 | `string`             | `'' `                             |             |
-| preferredCountries       | `(CountryISO)[]`     | `[]`                              |             |
-| onlyCountries            | `(CountryISO)[]`     | `[]`                              |             |
-| enableAutoCountrySelect  | `boolean`            | `true`                            |             |
-| enablePlaceholder        | `boolean`            | `true`                            |             |
-| customPlaceholder        | `string \| null`     | `null`                            |             |
-| numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` |             |
-| searchCountryFlag        | `boolean`            | `false`                           |             |
-| searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          |             |
-| searchCountryPlaceholder | `string`             | `'Search Country'`                |             |
-| maxLength                | `number \| null`     | `null`                            |             |
-| selectFirstCountry       | `boolean`            | `true`                            |             |
-| phoneValidation          | `boolean`            | `true`                            |             |
-| inputId                  | `string`             | `'phone'`                         |             |
-| selectedCountryISO       | `CountryISO \| null` | `null`                            |             |
-| separateDialCode         | `boolean`            | `false`                           |             |
-| onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         |             |
+| Sr # | Parameters               | Data Type            | Default Value                     | Description |
+| ---- | ------------------------ | -------------------- | --------------------------------- | ----------- |
+| 01   | cssClass                 | `string`             | `'' `                             |             |
+| 02   | preferredCountries       | `(CountryISO)[]`     | `[]`                              |             |
+| 03   | onlyCountries            | `(CountryISO)[]`     | `[]`                              |             |
+| 04   | enableAutoCountrySelect  | `boolean`            | `true`                            |             |
+| 05   | enablePlaceholder        | `boolean`            | `true`                            |             |
+| 06   | customPlaceholder        | `string \| null`     | `null`                            |             |
+| 07   | numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` |             |
+| 08   | searchCountryFlag        | `boolean`            | `false`                           |             |
+| 09   | searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          |             |
+| 10   | searchCountryPlaceholder | `string`             | `'Search Country'`                |             |
+| 11   | maxLength                | `number \| null`     | `null`                            |             |
+| 12   | selectFirstCountry       | `boolean`            | `true`                            |             |
+| 13   | phoneValidation          | `boolean`            | `true`                            |             |
+| 14   | inputId                  | `string`             | `'phone'`                         |             |
+| 15   | selectedCountryISO       | `CountryISO \| null` | `null`                            |             |
+| 16   | separateDialCode         | `boolean`            | `false`                           |             |
+| 17   | onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         |             |
 
 ## Contact Information
 
