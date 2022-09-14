@@ -77,6 +77,9 @@ import {
 
 ## Options
 
+| Parameters | Data Type | Default Value | Description |
+| ---------- | --------- | ------------- | ----------- |
+
 ## Contact Information
 
 **Okasha Khan** - _FullStack JavaScript Developer_
