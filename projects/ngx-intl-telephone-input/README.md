@@ -77,25 +77,25 @@ import {
 
 ## Options
 
-| Parameters               | Data Type          | Default Value                   | Description |
-| ------------------------ | ------------------ | ------------------------------- | ----------- |
-| cssClass                 | string             | ''                              |             |
-| preferredCountries       | (CountryISO)[]     | []                              |             |
-| onlyCountries            | (CountryISO)[]     | []                              |             |
-| enableAutoCountrySelect  | boolean            | true                            |             |
-| enablePlaceholder        | boolean            | true                            |             |
-| customPlaceholder        | string \| null     | null                            |             |
-| numberFormat             | PhoneNumberFormat  | PhoneNumberFormat.International |             |
-| searchCountryFlag        | boolean            | false                           |             |
-| searchCountryField       | SearchCountryField | SearchCountryField.All          |             |
-| searchCountryPlaceholder | string             | 'Search Country'                |             |
-| maxLength                | number \| null     | null                            |             |
-| selectFirstCountry       | boolean            | true                            |             |
-| phoneValidation          | boolean            | true                            |             |
-| inputId                  | string             | 'phone'                         |             |
-| selectedCountryISO       | CountryISO \| null | null                            |             |
-| separateDialCode         | boolean            | false                           |             |
-| onChange                 | EventEmitter<any>  | new EventEmitter<any>()         |             |
+| Parameters               | Data Type            | Default Value                     | Description |
+| ------------------------ | -------------------- | --------------------------------- | ----------- |
+| cssClass                 | `string`             | `'' `                             |             |
+| preferredCountries       | `(CountryISO)[]`     | `[]`                              |             |
+| onlyCountries            | `(CountryISO)[]`     | `[]`                              |             |
+| enableAutoCountrySelect  | `boolean`            | `true`                            |             |
+| enablePlaceholder        | `boolean`            | `true`                            |             |
+| customPlaceholder        | `string \| null`     | `null`                            |             |
+| numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` |             |
+| searchCountryFlag        | `boolean`            | `false`                           |             |
+| searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          |             |
+| searchCountryPlaceholder | `string`             | `'Search Country'`                |             |
+| maxLength                | `number \| null`     | `null`                            |             |
+| selectFirstCountry       | `boolean`            | `true`                            |             |
+| phoneValidation          | `boolean`            | `true`                            |             |
+| inputId                  | `string`             | `'phone'`                         |             |
+| selectedCountryISO       | `CountryISO \| null` | `null`                            |             |
+| separateDialCode         | `boolean`            | `false`                           |             |
+| onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         |             |
 
 ## Contact Information
 
