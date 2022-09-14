@@ -14,6 +14,13 @@
 
 `You can check it out as well!`
 
+## Supported Phone Formats
+
+This package supports only national and international formats for phone number formatting and validation.
+
+NATIONAL -> `0321 1234567`
+INTERNATIONAL -> `+92 321 1234567`
+
 ## Installation
 
 You need to add dependency and install package as follows:
