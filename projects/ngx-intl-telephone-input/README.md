@@ -31,40 +31,35 @@ npm i ngx-intl-telephone-input
 
 Add `NgxIntlTelephoneInputModule` into your module file:
 
-```
-import { NgxIntlTelephoneInputModule } from 'ngx-intl-telephone-input'
+```typescript
+import { NgxIntlTelephoneInputModule } from "ngx-intl-telephone-input";
 ```
 
-```
+```typescript
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    NgxIntlTelephoneInputModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, NgxIntlTelephoneInputModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 #### Example
 
-```
+```html
 <intl-telephone-input
-      [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
-      [enablePlaceholder]="true"
-      [searchCountryFlag]="true"
-      [separateDialCode]="false"
-      [enableAutoCountrySelect]="true"
-      [searchCountryField]="SearchCountryField.All"
-      [phoneValidation]="false"
-      [numberFormat]="PhoneNumberFormat.International"
-      [inputId]="'phone'"
-      (onChange)="onInputChange($event)"
-    >
+  [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
+  [enablePlaceholder]="true"
+  [searchCountryFlag]="true"
+  [separateDialCode]="false"
+  [enableAutoCountrySelect]="true"
+  [searchCountryField]="SearchCountryField.All"
+  [phoneValidation]="false"
+  [numberFormat]="PhoneNumberFormat.International"
+  [inputId]="'phone'"
+  (onChange)="onInputChange($event)"
+>
 </intl-telephone-input>
 ```
 
@@ -72,8 +67,12 @@ export class AppModule { }
 
 > Note: Don't forget to add [CountryISO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/country-iso.enum.ts), [SearchCountryField](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/searchCountryField.enum.ts) and [PhoneNumberFormat](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/phoneNumberFormat.enum.ts) enums into your .ts file. Add below line of code to import all of them.
 
-```
-import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-telephone-input';
+```typescript
+import {
+  CountryISO,
+  PhoneNumberFormat,
+  SearchCountryField,
+} from "ngx-intl-telephone-input";
 ```
 
 ## Options
