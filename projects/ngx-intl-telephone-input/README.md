@@ -6,11 +6,11 @@
 
 ![preview-intl-telephone-input](https://user-images.githubusercontent.com/71649242/190262842-94e5d702-e519-470d-818c-b08172ea8ee5.PNG)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+## Dependencies
 
-A JavaScript plugin for entering and validating international telephone numbers. It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
+**ngx-intl-telephone-input** uses only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) for formatting and validating user's input.
 
-An Angular package for entering and validating international telephone numbers. It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
+`You can check it out as well!`
 
 ## Code scaffolding
 
