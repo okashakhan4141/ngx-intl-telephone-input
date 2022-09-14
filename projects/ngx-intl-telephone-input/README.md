@@ -78,9 +78,12 @@ import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-tele
 
 ## Options
 
-## Author's Information
+## Contact Information
 
 **Okasha Khan** - _FullStack JavaScript Developer_
+
 Email me at `okashakhan4141@gmail.com`
+
 LinkedIn Profile -> [okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
+
 Github Profile -> [okashakhan4141](https://github.com/okashakhan4141)
