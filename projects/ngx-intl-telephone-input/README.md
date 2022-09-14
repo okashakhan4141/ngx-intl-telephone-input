@@ -18,8 +18,10 @@
 
 This package supports only national and international formats for phone number formatting and validation.
 
-NATIONAL -> `0321 1234567`
-INTERNATIONAL -> `+92 321 1234567`
+```
+NATIONAL - `0321 1234567`
+INTERNATIONAL - `+92 321 1234567`
+```
 
 ## Installation
 
@@ -106,10 +108,10 @@ import {
 
 ## Contact Information
 
+```
 **Okasha Khan** - _FullStack JavaScript Developer_
 
 Email me at `okashakhan4141@gmail.com`
-
 LinkedIn Profile -> [https://www.linkedin.com/in/okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
-
 Github Profile -> [https://github.com/okashakhan4141](https://github.com/okashakhan4141)
+```
