@@ -8,7 +8,7 @@
 
 ## Dependencies
 
-**ngx-intl-telephone-input** uses only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) for formatting and validating user's input.
+**ngx-intl-telephone-input** has only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) v3.3.0 for formatting and validating user's input. You need to add this package as well before using _intl-tel-input_.
 
 `You can check it out as well!`
 
