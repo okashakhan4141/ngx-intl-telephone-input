@@ -1,0 +1,61 @@
+<div class="input-container">
+  <div class="dropdown" type="button">
+    <div class="dropdown__actions" (click)="toggleDropdown()">
+      <img class="flag" src="{{ selectedCountry.flagClass }}" alt="" />
+      <span *ngIf="separateDialCode" class="">
+        (+{{ selectedCountry.dialCode }})</span
+      >
+      <img class="dorpdown__icon" src="{{ getDropdownIconPath() }}" alt="" />
+    </div>
+
+    <div class="dropdown__items" *ngIf="isDropdownOpen">
+      <div class="searchCountry" *ngIf="searchCountryFlag">
+        <input
+          type="text"
+          [(ngModel)]="searchFilter"
+          (ngModelChange)="searchFilterChnaged($event)"
+          placeholder="{{ searchCountryPlaceholder }}"
+          class="searchCountry__input"
+        />
+      </div>
+
+      <div class="dropdown__items__list">
+        <div
+          class="dropdown__item"
+          *ngFor="let preferredCountry of preferredCountriesList"
+          (click)="onCountrySelect(preferredCountry)"
+        >
+          <img class="flag" src="{{ preferredCountry.flagClass }}" />
+          <span>{{ preferredCountry.name }}</span>
+          <span class="phone-code-span"> +{{ preferredCountry.dialCode }}</span>
+        </div>
+        <hr class="line" *ngIf="preferredCountries.length" />
+
+        <div
+          class="dropdown__item"
+          *ngFor="let country of countriesToShow"
+          (click)="onCountrySelect(country)"
+          id="{{ country.htmlId }}"
+        >
+          <img class="flag" src="{{ country.flagClass }}" />
+          <span>{{ country.name }}</span>
+          <span class="phone-code-span"> +{{ country.dialCode }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input
+    id="{{ inputId }}"
+    type="tel"
+    value="{{ phoneNumber }}"
+    (focus)="onPhoneInputFocus()"
+    [(ngModel)]="phoneNumber"
+    (ngModelChange)="phoneValueChnaged($event)"
+    placeholder="{{ selectedCountry.placeHolder }}"
+    class="phoneInput"
+    [ngClass]="{
+      inValid: phoneValidation && !isInputValid
+    }"
+    maxlength="{{ maxLength }}"
+  />
+</div>

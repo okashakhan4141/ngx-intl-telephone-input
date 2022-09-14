@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-telephone-input';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngx-intel-telephone-input';
+  title = 'Intrgrating Custom Library';
+
+  public CountryISO: any;
+  public PhoneNumberFormat: any;
+  public SearchCountryField: any;
+
+  constructor() {
+    this.CountryISO = CountryISO;
+    this.PhoneNumberFormat = PhoneNumberFormat;
+    this.SearchCountryField = SearchCountryField;
+  }
+
+  public onInputChange(event: any) {
+    console.log(event);
+  }
 }

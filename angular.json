@@ -18,13 +18,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -85,14 +80,40 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
+          }
+        }
+      }
+    },
+    "ngx-intl-telephone-input": {
+      "projectType": "library",
+      "root": "projects/ngx-intl-telephone-input",
+      "sourceRoot": "projects/ngx-intl-telephone-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-intl-telephone-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-intl-telephone-input/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-intl-telephone-input/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-intl-telephone-input/src/test.ts",
+            "tsConfig": "projects/ngx-intl-telephone-input/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-intl-telephone-input/karma.conf.js"
           }
         }
       }
