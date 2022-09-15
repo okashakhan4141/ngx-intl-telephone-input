@@ -12,7 +12,13 @@
 
 **ngx-intl-telephone-input** has only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) v3.3.0 for formatting and validating user's input. You need to add this package as well before using _intl-tel-input_.
 
-`You can check it out as well!`
+## Comparison with other libraries
+
+Although, there are a lot of packages out there but this package has a slight advantange over them. The `first` one being dependencies. The package is inspired from [NgxIntlTelInput](https://www.npmjs.com/package/ngx-intl-tel-input) `(Do check them as well)` that has 2 dependencies but this package has only 1 dependency and that too for formatting and validations.
+
+The `second` one is the way **ngx-intl-telephone-input** formats user input. For example when user inputs any number, the formatter formats the user input based on `NATIONAL OR INTERNATIONAL` (according to selection) and checks the validation of input on evry keystroke and gives feedback to user as well.
+
+> Plese refer to [DEMO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) section for more insights!
 
 ## Supported Phone Formats
 
@@ -22,6 +28,10 @@ This package supports only national and international formats for phone number f
 NATIONAL -> (0321 1234567)
 INTERNATIONAL -> (+92 321 1234567)
 ```
+
+## Demo
+
+Click [HERE](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) to watch the demo video.
 
 ## Installation
 
@@ -120,6 +130,15 @@ import {
 | 17   | onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         | Emits input value entered along with validation staus on every keystroke.                                                  |
 
 > Note: Please refer to [CountryISO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/country-iso.enum.ts), [SearchCountryField](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/searchCountryField.enum.ts) and [PhoneNumberFormat](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/phoneNumberFormat.enum.ts) enums to get more idea.
+
+## Contributions
+
+- Fork repository
+- Update ./projects/ngx-intl-telephone-input (Add features/Resolve Bugs)
+- Build and test the library
+- Update ./src/app component with new functionality
+- Update README.md
+- Create pull request
 
 ## Contact Information
 
