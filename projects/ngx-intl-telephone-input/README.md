@@ -84,6 +84,19 @@ import {
 } from "ngx-intl-telephone-input";
 ```
 
+#### Output
+
+```json
+{
+  "phone-value": "+92 3046219062",
+  "country": "Pakistan (‫پاکستان‬‎)",
+  "iso2-code": "pk",
+  "dialCode": "92",
+  "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
+  "isValid": true
+}
+```
+
 ## Options
 
 | Sr # | Parameters               | Data Type            | Default Value                     | Description                                                                                                                |
