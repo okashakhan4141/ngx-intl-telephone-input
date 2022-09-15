@@ -106,7 +106,7 @@ import {
 | 03   | onlyCountries            | `(CountryISO)[]`     | `[]`                              | List of countries, that will appear in the dropdown. Preferred countries will depends upon this list.                      |
 | 04   | enableAutoCountrySelect  | `boolean`            | `true`                            | If true, will select first country automatically.                                                                          |
 | 05   | enablePlaceholder        | `boolean`            | `true`                            | If true, Enables and sets Input placeholder text, according to the country selected.                                       |
-| 06   | customPlaceholder        | `string \| null`     | `null`                            | Custom string to be inserted as a placeholder in phone number's <input>                                                    |
+| 06   | customPlaceholder        | `string \| null`     | `null`                            | Custom string to be inserted as a placeholder in phone number Input tag.                                                   |
 | 07   | numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` | Enables `NATIONAL` or `INTERNATIONAL` formatting.                                                                          |
 | 08   | searchCountryFlag        | `boolean`            | `false`                           | Enables search <input> for countries in the dropdown.                                                                      |
 | 09   | searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          | Allows to search country by name, dial-code, iso2 and by all if searchCountryFlag is enabled. Use SearchCountryField enum. |
@@ -118,6 +118,8 @@ import {
 | 15   | selectedCountryISO       | `CountryISO \| null` | `null`                            | Set specified country on load.                                                                                             |
 | 16   | separateDialCode         | `boolean`            | `false`                           | Saperate Dial code from user input and will appear next to country flag.                                                   |
 | 17   | onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         | Emits input value entered along with validation staus on every keystroke.                                                  |
+
+> Note: Please refer to [CountryISO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/country-iso.enum.ts), [SearchCountryField](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/searchCountryField.enum.ts) and [PhoneNumberFormat](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/phoneNumberFormat.enum.ts) enums to get more idea.
 
 ## Contact Information
 
