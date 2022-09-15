@@ -298,3 +298,7 @@ svg#clouds {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.space {
+  margin: 20px;
+}

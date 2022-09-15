@@ -14,7 +14,7 @@
 
 ## Comparison with other libraries
 
-Although, there are a lot of packages out there but this package has a slight advantange over them. The `first` one being dependencies. The package is inspired from [NgxIntlTelInput](https://www.npmjs.com/package/ngx-intl-tel-input) `(Do check them as well)` that has 2 dependencies but this package has only 1 dependency and that too for formatting and validations.
+Although, there are a lot of packages out there but this package has a slight advantange over them. The `first` one being dependencies. The package is inspired by [NgxIntlTelInput](https://www.npmjs.com/package/ngx-intl-tel-input) `(Do check them as well)` that has 2 dependencies but this package has only 1 dependency and that too for formatting and validations.
 
 The `second` one is the way **ngx-intl-telephone-input** formats user input. For example when user inputs any number, the formatter formats the user input based on `NATIONAL OR INTERNATIONAL` (according to selection) and checks the validation of input on evry keystroke and gives feedback to user as well.
 
@@ -31,7 +31,7 @@ INTERNATIONAL -> (+92 321 1234567)
 
 ## Demo
 
-Click [HERE](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) to watch the demo video.
+Click [HERE](https://www.loom.com/share/39b2c100af224e7e91aa642c13e0141b) to watch the demo video.
 
 > Note: This Demo video is recorded with specific options. The main idea is to highlight the formatting and validation.
 

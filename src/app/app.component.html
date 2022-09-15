@@ -117,45 +117,43 @@
     </svg>
   </div>
 
-  <!-- [onlyCountries]="[CountryISO.Pakistan, CountryISO.Australia]" -->
-  <!-- [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]" -->
-  <!-- [selectedCountryISO]="CountryISO.Pakistan" -->
-
-  <!-- [cssClass]="'tel-input'"
-    [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
-    [enablePlaceholder]="true"
-    [searchCountryFlag]="true"
-    [enableAutoCountrySelect]="true"
-    [selectFirstCountry]="true"
-    [separateDialCode]="true" -->
-
-  <!-- [numberFormat]="PhoneNumberFormat.National" -->
-  <!--  -->
-
   <div class="test">
-    <intl-telephone-input
-      [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
-      [enablePlaceholder]="true"
-      [searchCountryFlag]="true"
-      [separateDialCode]="false"
-      [enableAutoCountrySelect]="true"
-      [searchCountryField]="SearchCountryField.All"
-      [phoneValidation]="false"
-      [numberFormat]="PhoneNumberFormat.International"
-      [inputId]="'phone'"
-      (onChange)="onInputChange($event)"
-    >
-    </intl-telephone-input>
+    <div>
+      <h3>International Format</h3>
 
-    <!-- <intl-telephone-input
-      [preferredCountries]="[CountryISO.India]"
-      [enablePlaceholder]="true"
-      [searchCountryFlag]="true"
-      [separateDialCode]="false"
-      [numberFormat]="PhoneNumberFormat.International"
-      (onChange)="onInputChange($event)"
-    >
-    </intl-telephone-input> -->
+      <intl-telephone-input
+        [preferredCountries]="[CountryISO.Pakistan, CountryISO.India]"
+        [enablePlaceholder]="true"
+        [searchCountryFlag]="true"
+        [separateDialCode]="false"
+        [enableAutoCountrySelect]="true"
+        [searchCountryField]="SearchCountryField.All"
+        [phoneValidation]="true"
+        [numberFormat]="PhoneNumberFormat.International"
+        [inputId]="'phone1'"
+        (onChange)="onInputChange($event)"
+      >
+      </intl-telephone-input>
+    </div>
+
+    <div class="space"></div>
+
+    <div>
+      <h3>National Format</h3>
+      <intl-telephone-input
+        [preferredCountries]="[CountryISO.Pakistan, CountryISO.Bangladesh]"
+        [enablePlaceholder]="true"
+        [searchCountryFlag]="true"
+        [separateDialCode]="false"
+        [enableAutoCountrySelect]="true"
+        [searchCountryField]="SearchCountryField.All"
+        [phoneValidation]="true"
+        [numberFormat]="PhoneNumberFormat.National"
+        [inputId]="'phone2'"
+        (onChange)="onInputChange($event)"
+      >
+      </intl-telephone-input>
+    </div>
   </div>
 
   <svg

@@ -7,7 +7,7 @@ import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-tele
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Intrgrating Custom Library';
+  title = 'ngx-intl-telephone-input';
 
   public CountryISO: any;
   public PhoneNumberFormat: any;
