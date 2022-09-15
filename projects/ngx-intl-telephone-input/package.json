@@ -1,6 +1,29 @@
 {
   "name": "ngx-intl-telephone-input",
   "version": "1.0.0",
+  "description": "An Angular plugin that validates user's input, provides formatting of all international countries phone numbers and returns, input value entered along with validation status on every keystroke.",
+  "keywords": [
+    "international",
+    "national",
+    "phone",
+    "input",
+    "intl",
+    "intl-tel-input",
+    "tel-input",
+    "telephone-input",
+    "angular",
+    "validation",
+    "formatting"
+  ],
+  "author": {
+    "name": "Okasha Khan",
+    "email": "okashakhan4141@gmail.com",
+    "url": "https://www.linkedin.com/in/okashakhan4141"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okashakhan4141/ngx-intel-telephone-input/tree/master/projects/ngx-intl-telephone-input"
+  },
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0",
