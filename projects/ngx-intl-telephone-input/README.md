@@ -4,7 +4,7 @@
 
 **ngx-intl-telephone-input** is an **_Angular Plugin_** that validates user's input, provides formatting `(both national and international)` of all international countries phone numbers and returns, input value entered along with validation status on every keystroke. It has a dropdown showing information about country flag, name and dial-code. Depending uopn the options selected, adds placeholder according to selected country and formats the input.
 
-(Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details!)
+(Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details)
 
 ![preview-intl-telephone-input](https://user-images.githubusercontent.com/71649242/190262842-94e5d702-e519-470d-818c-b08172ea8ee5.PNG)
 
@@ -72,7 +72,7 @@ export class AppModule {}
 </intl-telephone-input>
 ```
 
-(Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details!)
+(Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details)
 
 > Note: Don't forget to add [CountryISO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/country-iso.enum.ts), [SearchCountryField](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/searchCountryField.enum.ts) and [PhoneNumberFormat](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/src/data/phoneNumberFormat.enum.ts) enums into your .ts file. Add below line of code to import all of them.
 
@@ -86,25 +86,25 @@ import {
 
 ## Options
 
-| Sr # | Parameters               | Data Type            | Default Value                     | Description |
-| ---- | ------------------------ | -------------------- | --------------------------------- | ----------- |
-| 01   | cssClass                 | `string`             | `'' `                             |             |
-| 02   | preferredCountries       | `(CountryISO)[]`     | `[]`                              |             |
-| 03   | onlyCountries            | `(CountryISO)[]`     | `[]`                              |             |
-| 04   | enableAutoCountrySelect  | `boolean`            | `true`                            |             |
-| 05   | enablePlaceholder        | `boolean`            | `true`                            |             |
-| 06   | customPlaceholder        | `string \| null`     | `null`                            |             |
-| 07   | numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` |             |
-| 08   | searchCountryFlag        | `boolean`            | `false`                           |             |
-| 09   | searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          |             |
-| 10   | searchCountryPlaceholder | `string`             | `'Search Country'`                |             |
-| 11   | maxLength                | `number \| null`     | `null`                            |             |
-| 12   | selectFirstCountry       | `boolean`            | `true`                            |             |
-| 13   | phoneValidation          | `boolean`            | `true`                            |             |
-| 14   | inputId                  | `string`             | `'phone'`                         |             |
-| 15   | selectedCountryISO       | `CountryISO \| null` | `null`                            |             |
-| 16   | separateDialCode         | `boolean`            | `false`                           |             |
-| 17   | onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         |             |
+| Sr # | Parameters               | Data Type            | Default Value                     | Description                                                                                                                |
+| ---- | ------------------------ | -------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 01   | cssClass                 | `string`             | `'' `                             | Custom CSS Class that'll be added to main container.                                                                       |
+| 02   | preferredCountries       | `(CountryISO)[]`     | `[]`                              | List of countries, that will appear at the top saperated by horizental line from all countries.                            |
+| 03   | onlyCountries            | `(CountryISO)[]`     | `[]`                              | List of countries, that will appear in the dropdown. Preferred countries will depends upon this list.                      |
+| 04   | enableAutoCountrySelect  | `boolean`            | `true`                            | If true, will select first country automatically.                                                                          |
+| 05   | enablePlaceholder        | `boolean`            | `true`                            | If true, Enables and sets Input placeholder text, according to the country selected.                                       |
+| 06   | customPlaceholder        | `string \| null`     | `null`                            | Custom string to be inserted as a placeholder in phone number's <input>                                                    |
+| 07   | numberFormat             | `PhoneNumberFormat`  | `PhoneNumberFormat.International` | Enables `NATIONAL` or `INTERNATIONAL` formatting.                                                                          |
+| 08   | searchCountryFlag        | `boolean`            | `false`                           | Enables search <input> for countries in the dropdown.                                                                      |
+| 09   | searchCountryField       | `SearchCountryField` | `SearchCountryField.All`          | Allows to search country by name, dial-code, iso2 and by all if searchCountryFlag is enabled. Use SearchCountryField enum. |
+| 10   | searchCountryPlaceholder | `string`             | `'Search Country'`                | Sets placeholder for search country <input>.                                                                               |
+| 11   | maxLength                | `number \| null`     | `null`                            | Maximum characters allowed in input.                                                                                       |
+| 12   | selectFirstCountry       | `boolean`            | `true`                            | Selects first country from preferredCountries if it is set. If not then uses main list.                                    |
+| 13   | phoneValidation          | `boolean`            | `true`                            | Toggle validation on user input. If `true`, will give feedback to user on every keystroke.                                 |
+| 14   | inputId                  | `string`             | `'phone'`                         | Unique ID for <input> tag in html.                                                                                         |
+| 15   | selectedCountryISO       | `CountryISO \| null` | `null`                            | Set specified country on load.                                                                                             |
+| 16   | separateDialCode         | `boolean`            | `false`                           | Saperate Dial code from user input and will appear next to country flag.                                                   |
+| 17   | onChange                 | `EventEmitter<any>`  | `new EventEmitter<any>()`         | Emits input value entered along with validation staus on every keystroke.                                                  |
 
 ## Contact Information
 
