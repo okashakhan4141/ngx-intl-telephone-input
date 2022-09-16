@@ -146,8 +146,8 @@ import {
 
 ## Contact Information
 
-**Okasha Khan** - _FullStack JavaScript Developer_
+_OKASHA_ **_KHAN_** | _FullStack JavaScript Developer_
 
-- Email me at `okashakhan4141@gmail.com`
-- LinkedIn Profile -> [https://www.linkedin.com/in/okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
-- Github Profile -> [https://github.com/okashakhan4141](https://github.com/okashakhan4141)
+- :email: : `okashakhan4141@gmail.com`
+- LinkedIn Profile : [https://www.linkedin.com/in/okashakhan4141](https://www.linkedin.com/in/okashakhan4141)
+- Github Profile : [https://github.com/okashakhan4141](https://github.com/okashakhan4141)
