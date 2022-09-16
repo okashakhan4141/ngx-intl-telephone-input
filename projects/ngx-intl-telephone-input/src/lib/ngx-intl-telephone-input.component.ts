@@ -12,7 +12,7 @@ import { PhoneNumberFormat } from '../data/phoneNumberFormat.enum';
 import { Country } from '../models/country';
 
 // DATA SET
-import { countryData } from '../data/allCountriesWithFlags';
+import { countryData } from '../data/allCountries';
 
 // ASSETS
 import { dropdownOpen, dropdownClose, flagPlaceholder } from '../assets/base64';
@@ -114,12 +114,12 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
   public phoneValueChnaged(event: any) {
     this.formatPhoneNumber();
     this.onChange.emit({
-      'phone-value': event,
-      'country': this.selectedCountry.name,
-      'iso2-code': this.selectedCountry.iso2,
+      'phoneNumber': this.phoneNumber,
+      'selectedCountry': this.selectedCountry.name,
+      'iso2Code': this.selectedCountry.iso2,
       'dialCode': this.selectedCountry.dialCode,
-      'flag': this.selectedCountry.flagClass,
-      'isValid': this.isInputValid,
+      'numberFormat': this.numberFormat,
+      'isNumberValid': this.isInputValid,
     });
   }
 
@@ -137,6 +137,10 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
       this.phoneNumber = res.g.number.international ? this.formatIntelNumber(res.g.number.international) : this.phoneNumber;
     } else {
       this.phoneNumber = res.g.number.national ? res.g.number.national : this.phoneNumber;
+    }
+
+    if (this.numberFormat == "INTERNATIONAL" && this.enableAutoCountrySelect && res.g.regionCode != this.selectedCountry.iso2.toUpperCase()) {
+      this.selectedCountry = this.findCountryByIso2(res.g.regionCode);
     }
 
     if (!res.g.valid || res.g.regionCode != this.selectedCountry.iso2.toUpperCase()) {
@@ -167,12 +171,15 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
     }, 1);
   }
 
+  private findCountryByIso2(iso2: string): Country | any {
+    return this.countriesToShow.find(con => con.iso2 == iso2.toLowerCase());
+  }
+
   public setDefaultSelectedCountry() {
     if (this.selectedCountryISO) {
-      const country: Country | any = this.countriesToShow.find(con => con.iso2 == this.selectedCountryISO);
-      this.selectedCountry = country;
+      this.selectedCountry = this.findCountryByIso2(this.selectedCountryISO);
     }
-    else if (this.enableAutoCountrySelect && this.selectFirstCountry) {
+    else if (this.selectFirstCountry) {
       if (this.preferredCountriesList.length) this.selectedCountry = this.preferredCountriesList[0];
       else this.selectedCountry = this.countriesToShow[0];
     }
