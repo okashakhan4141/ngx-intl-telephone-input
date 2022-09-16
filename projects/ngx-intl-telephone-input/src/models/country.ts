@@ -8,3 +8,12 @@ export interface Country {
     flagClass: string;
     placeHolder: string;
 }
+
+export interface InputValue {
+    phoneNumber: string,
+    selectedCountry: string,
+    iso2Code: string,
+    dialCode: string,
+    numberFormat: string,
+    isNumberValid: boolean,
+}

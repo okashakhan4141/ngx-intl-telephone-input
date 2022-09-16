@@ -9,7 +9,7 @@ import { SearchCountryField } from '../data/searchCountryField.enum';
 import { PhoneNumberFormat } from '../data/phoneNumberFormat.enum';
 
 // MODELS
-import { Country } from '../models/country';
+import { Country, InputValue } from '../models/country';
 
 // DATA SET
 import { countryData } from '../data/allCountries';
@@ -40,7 +40,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
   @Input() inputId: string = 'phone';
   @Input() selectedCountryISO: CountryISO | null = null;
   @Input() separateDialCode: boolean = false;
-  @Output() onChange: EventEmitter<any> = new EventEmitter<any>();
+  @Output() onChange: EventEmitter<InputValue> = new EventEmitter<InputValue>();
 
   public allCountries: (Country)[];
   public selectedCountry: Country;
@@ -114,12 +114,12 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
   public phoneValueChnaged(event: any) {
     this.formatPhoneNumber();
     this.onChange.emit({
-      'phoneNumber': this.phoneNumber,
-      'selectedCountry': this.selectedCountry.name,
-      'iso2Code': this.selectedCountry.iso2,
-      'dialCode': this.selectedCountry.dialCode,
-      'numberFormat': this.numberFormat,
-      'isNumberValid': this.isInputValid,
+      phoneNumber: this.phoneNumber,
+      selectedCountry: this.selectedCountry.name,
+      iso2Code: this.selectedCountry.iso2,
+      dialCode: this.selectedCountry.dialCode,
+      numberFormat: this.numberFormat,
+      isNumberValid: this.isInputValid,
     });
   }
 
