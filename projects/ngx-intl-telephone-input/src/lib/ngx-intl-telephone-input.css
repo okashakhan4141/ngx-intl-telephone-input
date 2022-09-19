@@ -50,6 +50,7 @@
 .dropdown__items__list {
   overflow: scroll;
   overflow-x: hidden;
+  cursor: pointer;
 }
 
 .dropdown__item {
