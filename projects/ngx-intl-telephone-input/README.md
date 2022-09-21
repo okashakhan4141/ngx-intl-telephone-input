@@ -2,7 +2,7 @@
 
 ## About Package
 
-**ngx-intl-telephone-input** is an **_Angular Plugin_** that validates user's input, provides formatting for `(both national and international)` phone numbers and triggers an event on every keystroke. (See [Sample Output](https://github.com/okashakhan4141/ngx-intel-telephone-input/tree/main/projects/ngx-intl-telephone-input#output-sample) to have a better idea about event triggered).
+**Ngx-Intl-Telephone-Input** is an **_Angular Plugin_** that validates user's input, provides formatting for `(both national and international)` phone numbers and triggers an event on every keystroke. (See [Sample Output](https://github.com/okashakhan4141/ngx-intel-telephone-input/tree/main/projects/ngx-intl-telephone-input#output-sample) to have a better idea about event triggered).
 
 It has a dropdown showing information about country flag, name and dial-code. Depending upon the options selected, adds placeholder according to selected country and formats the input.
 
