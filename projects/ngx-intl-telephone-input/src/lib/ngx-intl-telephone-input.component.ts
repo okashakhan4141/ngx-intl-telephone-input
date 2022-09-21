@@ -140,7 +140,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
     }
 
     if (this.numberFormat == "INTERNATIONAL" && this.enableAutoCountrySelect && res.g.regionCode != this.selectedCountry.iso2.toUpperCase()) {
-      this.selectedCountry = this.findCountryByIso2(res.g.regionCode);
+      res.g.regionCode && (this.selectedCountry = this.findCountryByIso2(res.g.regionCode));
     }
 
     if (!res.g.valid || res.g.regionCode != this.selectedCountry.iso2.toUpperCase()) {
@@ -172,6 +172,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
   }
 
   private findCountryByIso2(iso2: string): Country | any {
+    console.log(iso2);
     return this.countriesToShow.find(con => con.iso2 == iso2.toLowerCase());
   }
 

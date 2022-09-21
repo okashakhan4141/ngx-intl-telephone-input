@@ -103,3 +103,8 @@
   background-color: rgb(248, 231, 231);
   outline-color: rgb(248, 139, 139);
 }
+
+.line {
+  border: none;
+  border-top: 1px solid rgb(150, 150, 150);
+}

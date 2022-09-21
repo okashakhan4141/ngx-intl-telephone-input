@@ -2,7 +2,9 @@
 
 ## About Package
 
-**ngx-intl-telephone-input** is an **_Angular Plugin_** that validates user's input, provides formatting `(both national and international)` of all international countries phone numbers and returns, input value entered along with validation status on every keystroke. It has a dropdown showing information about country flag, name and dial-code. Depending uopn the options selected, adds placeholder according to selected country and formats the input.
+**ngx-intl-telephone-input** is an **_Angular Plugin_** that validates user's input, provides formatting for `(both national and international)` phone numbers and triggers an event on every keystroke. (See [Sample Output](https://github.com/okashakhan4141/ngx-intel-telephone-input/tree/main/projects/ngx-intl-telephone-input#output-sample) to have a better idea about event triggered).
+
+It has a dropdown showing information about country flag, name and dial-code. Depending upon the options selected, adds placeholder according to selected country and formats the input.
 
 (Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details)
 
@@ -10,13 +12,13 @@
 
 ## Dependencies
 
-**ngx-intl-telephone-input** has only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) v3.3.0 for formatting and validating user's input. You need to add this package as well before using _intl-tel-input_.
+**Ngx-Intl-Telephone-Input** has only one dependency, [awesome-phonenumber](https://www.npmjs.com/package/awesome-phonenumber) v3.3.0 for formatting and validating user's input. You need to add this package as well before using _intl-tel-input_.
 
 ## Comparison with other libraries
 
-Although, there are a lot of packages out there but this package has a slight advantange over them. The `first` one being dependencies. The package is inspired by [NgxIntlTelInput](https://www.npmjs.com/package/ngx-intl-tel-input) `(Do check them as well)` that has 2 dependencies but this package has only 1 dependency and that too for formatting and validations.
+Although, there are a lot of packages out there but this package has some advantanges over them. The `first` one being dependencies. The package itself is inspired from [NgxIntlTelInput](https://www.npmjs.com/package/ngx-intl-tel-input) `(Do check them as well)`, that has 2 dependencies but this package has only 1 dependency and that too for formatting and validations. The dependency size is also small.
 
-The `second` one is the way **ngx-intl-telephone-input** formats user input. For example when user inputs any number, the formatter formats the user input based on `NATIONAL OR INTERNATIONAL` (according to selection) and checks the validation of input on evry keystroke and gives feedback to user as well.
+The `second` one is the way **Ngx-Intl-Telephone-Input** formats user input. It comes with **_As You Type Formatting_** that formats user's input on every keystroke depending on the validation status. For example when user starts typing any number, the formatter checks the validation status based on `NATIONAL OR INTERNATIONAL` (according to selection) and formats the number once it is valid.
 
 > Please refer to [DEMO](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#demo) section for more insights!
 
