@@ -9,7 +9,7 @@ import { SearchCountryField } from '../data/searchCountryField.enum';
 import { PhoneNumberFormat } from '../data/phoneNumberFormat.enum';
 
 // MODELS
-import { Country, InputValue } from '../models/country';
+import { Country, InputValue, CustomAsset } from '../models/country';
 
 // DATA SET
 import { countryData } from '../data/allCountries';
@@ -40,6 +40,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
   @Input() inputId: string = 'phone';
   @Input() selectedCountryISO: CountryISO | null = null;
   @Input() separateDialCode: boolean = false;
+  @Input() assets: (CustomAsset)[] = [];
   @Output() onChange: EventEmitter<InputValue> = new EventEmitter<InputValue>();
 
   public allCountries: (Country)[];
@@ -75,6 +76,10 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
     this.isDropdownOpen = !this.isDropdownOpen;
   }
 
+  public checkCustomAsset(iso2: string) {
+    return this.assets.length == 0 ? null : this.assets.find(as => as.country == iso2);
+  }
+
   public generateCountryData() {
     var crypto = window.crypto;
     const typedArray = new Uint32Array(1);
@@ -83,6 +88,8 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
     const componentId = typedArray[0];
 
     const temp: (Country)[] = countryData.map(con => {
+
+      const asset: CustomAsset | any = this.checkCustomAsset(con[2].toString());
       return {
         name: con[1].toString(),
         iso2: con[2].toString(),
@@ -90,7 +97,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
         priority: +con[4] || 0,
         areaCodes: (con[5] as string[]) || undefined,
         htmlId: `${componentId}-${con[2].toString()}`,
-        flagClass: con[0].toString(),
+        flagClass: asset?.asset || con[0].toString(),
         placeHolder: '',
       }
     });

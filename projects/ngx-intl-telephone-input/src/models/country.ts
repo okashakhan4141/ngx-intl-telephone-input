@@ -1,3 +1,5 @@
+import { CountryISO } from '../data/country-iso.enum'
+
 export interface Country {
     name: string;
     iso2: string;
@@ -16,4 +18,9 @@ export interface InputValue {
     dialCode: string,
     numberFormat: string,
     isNumberValid: boolean,
+}
+
+export interface CustomAsset {
+    country: CountryISO,
+    asset: string
 }
