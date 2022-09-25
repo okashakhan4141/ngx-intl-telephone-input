@@ -20,7 +20,7 @@ import { dropdownOpen, dropdownClose, flagPlaceholder } from '../assets/base64';
 @Component({
   selector: 'intl-telephone-input',
   templateUrl: './ngx-intl-telephone-input.html',
-  styleUrls: ['./flags.css', './ngx-intl-telephone-input.css']
+  styleUrls: ['./custom-flags.css', './ngx-intl-telephone-input.css']
 })
 export class NgxIntlTelephoneInputComponent implements OnInit {
 

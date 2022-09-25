@@ -2,7 +2,9 @@
   <div class="dropdown" type="button">
     <div class="dropdown__actions" (click)="toggleDropdown()">
       <!-- <img class="flag" src="{{ selectedCountry.flagClass }}" alt="" /> -->
-      <div class="flag" [ngClass]="selectedCountry.flagClass || ''"></div>
+      <div class="flag-container">
+        <div class="flag" [ngClass]="selectedCountry.flagClass || ''"></div>
+      </div>
       <span *ngIf="separateDialCode" class="">
         (+{{ selectedCountry.dialCode }})</span
       >
@@ -27,7 +29,12 @@
           (click)="onCountrySelect(preferredCountry)"
         >
           <!-- <img class="flag" src="{{ preferredCountry.flagClass }}" /> -->
-          <div class="flag" [ngClass]="preferredCountry.flagClass || ''"></div>
+          <div class="flag-container">
+            <div
+              class="flag"
+              [ngClass]="preferredCountry.flagClass || ''"
+            ></div>
+          </div>
           <span>{{ preferredCountry.name }}</span>
           <span class="phone-code-span"> +{{ preferredCountry.dialCode }}</span>
         </div>
@@ -40,7 +47,9 @@
           id="{{ country.htmlId }}"
         >
           <!-- <img class="flag" src="{{ country.flagClass }}" /> -->
-          <div class="flag" [ngClass]="country.flagClass || ''"></div>
+          <div class="flag-container">
+            <div class="flag" [ngClass]="country.flagClass || ''"></div>
+          </div>
           <span>{{ country.name }}</span>
           <span class="phone-code-span"> +{{ country.dialCode }}</span>
         </div>

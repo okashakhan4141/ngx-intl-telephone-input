@@ -7,17 +7,20 @@
 .input-container {
   display: flex;
   align-items: center;
-  height: 40px;
+  /* height: 40px; */
+  height: 35px;
   border: 1px solid rgb(186, 180, 180);
-  padding: 0px 5px;
+  /* padding: 0px 5px; */
+  padding-right: 5px;
 }
 
 .dropdown {
   display: flex;
   align-items: center;
-  height: 40px;
+  /* height: 40px; */
+  height: 35px;
   position: relative;
-  padding: 0px 5px;
+  /* padding: 0px 5px; */
 }
 
 .dropdown__actions {
@@ -39,11 +42,12 @@
   padding: 5px 3px;
   display: flex;
   flex-direction: column;
-  width: 250px;
+  /* width: 250px; */
+  width: 260px;
   max-height: 300px;
   position: absolute;
-  top: 45px;
-  left: 0;
+  top: 42px;
+  left: -2px;
   z-index: 10;
 }
 
@@ -60,6 +64,7 @@
   min-height: 35px;
   background-color: transparent;
   border: none;
+  padding-right: 5px;
 }
 
 .dropdown__item:hover {
@@ -73,10 +78,13 @@
   margin-left: 3px;
 }
 
-/* .flag {
-  width: 50px;
-  height: 40px;
-} */
+.flag-container {
+  min-width: 40px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .searchCountry {
   position: sticky;
