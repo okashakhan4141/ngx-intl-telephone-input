@@ -20,7 +20,7 @@ import { dropdownOpen, dropdownClose, flagPlaceholder } from '../assets/base64';
 @Component({
   selector: 'intl-telephone-input',
   templateUrl: './ngx-intl-telephone-input.html',
-  styleUrls: ['./ngx-intl-telephone-input.css']
+  styleUrls: ['./flags.css', './ngx-intl-telephone-input.css']
 })
 export class NgxIntlTelephoneInputComponent implements OnInit {
 
@@ -89,7 +89,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
 
     const temp: (Country)[] = countryData.map(con => {
 
-      const asset: CustomAsset | any = this.checkCustomAsset(con[2].toString());
+      // const asset: CustomAsset | any = this.checkCustomAsset(con[2].toString());
       return {
         name: con[1].toString(),
         iso2: con[2].toString(),
@@ -97,7 +97,7 @@ export class NgxIntlTelephoneInputComponent implements OnInit {
         priority: +con[4] || 0,
         areaCodes: (con[5] as string[]) || undefined,
         htmlId: `${componentId}-${con[2].toString()}`,
-        flagClass: asset?.asset || con[0].toString(),
+        flagClass: `flag__${con[2].toString()}`, //asset?.asset || con[0].toString(),
         placeHolder: '',
       }
     });

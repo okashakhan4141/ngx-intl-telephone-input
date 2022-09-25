@@ -73,11 +73,10 @@
   margin-left: 3px;
 }
 
-.flag {
+/* .flag {
   width: 50px;
   height: 40px;
-  /* margin-right: 3px; */
-}
+} */
 
 .searchCountry {
   position: sticky;
