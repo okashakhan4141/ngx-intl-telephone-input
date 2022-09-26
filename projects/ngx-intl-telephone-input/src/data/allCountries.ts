@@ -1,1614 +1,1322 @@
+import { CountryISO } from "./country-iso.enum";
+
 export const countryData = [
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg",
-        "Afghanistan (‫افغانستان‬‎)",
-        "af",
-        "93"
+        'Afghanistan (‫افغانستان‬‎)',
+        CountryISO.Afghanistan,
+        '93'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg",
-        "Albania (Shqipëri)",
-        "al",
-        "355"
+        'Albania (Shqipëri)',
+        CountryISO.Albania,
+        '355'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DZ.svg",
-        "Algeria (‫الجزائر‬‎)",
-        "dz",
-        "213"
+        'Algeria (‫الجزائر‬‎)',
+        CountryISO.Algeria,
+        '213'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AS.svg",
-        "American Samoa",
-        "as",
-        "1",
+        'American Samoa',
+        'as',
+        '1',
         1,
         [
-            "684"
+            '684',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AD.svg",
-        "Andorra",
-        "ad",
-        "376"
+        'Andorra',
+        CountryISO.Andorra,
+        '376'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg",
-        "Angola",
-        "ao",
-        "244"
+        'Angola',
+        CountryISO.Angola,
+        '244'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AI.svg",
-        "Anguilla",
-        "ai",
-        "1",
+        'Anguilla',
+        'ai',
+        '1',
         1,
         [
-            "264"
+            '264',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AG.svg",
-        "Antigua and Barbuda",
-        "ag",
-        "1",
+        'Antigua and Barbuda',
+        'ag',
+        '1',
         1,
         [
-            "268"
+            '268',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg",
-        "Argentina",
-        "ar",
-        "54"
+        'Argentina',
+        CountryISO.Argentina,
+        '54'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg",
-        "Armenia (Հայաստան)",
-        "am",
-        "374"
+        'Armenia (Հայաստան)',
+        CountryISO.Armenia,
+        '374'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg",
-        "Aruba",
-        "aw",
-        "297"
+        'Aruba',
+        CountryISO.Aruba,
+        '297'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AU.svg",
-        "Australia",
-        "au",
-        "61",
+        'Australia',
+        CountryISO.Australia,
+        '61',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg",
-        "Austria (Österreich)",
-        "at",
-        "43"
+        'Austria (Österreich)',
+        CountryISO.Austria,
+        '43'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg",
-        "Azerbaijan (Azərbaycan)",
-        "az",
-        "994"
+        'Azerbaijan (Azərbaycan)',
+        CountryISO.Azerbaijan,
+        '994'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg",
-        "Bahamas",
-        "bs",
-        "1",
+        'Bahamas',
+        'bs',
+        '1',
         1,
         [
-            "242"
+            '242',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg",
-        "Bahrain (‫البحرين‬‎)",
-        "bh",
-        "973"
+        'Bahrain (‫البحرين‬‎)',
+        CountryISO.Bahrain,
+        '973'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg",
-        "Bangladesh (বাংলাদেশ)",
-        "bd",
-        "880"
+        'Bangladesh (বাংলাদেশ)',
+        CountryISO.Bangladesh,
+        '880'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg",
-        "Barbados",
-        "bb",
-        "1",
+        'Barbados',
+        'bb',
+        '1',
         1,
         [
-            "246"
+            '246',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BY.svg",
-        "Belarus (Беларусь)",
-        "by",
-        "375"
+        'Belarus (Беларусь)',
+        CountryISO.Belarus,
+        '375'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BE.svg",
-        "Belgium (België)",
-        "be",
-        "32"
+        'Belgium (België)',
+        CountryISO.Belgium,
+        '32'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BZ.svg",
-        "Belize",
-        "bz",
-        "501"
+        'Belize',
+        CountryISO.Belize,
+        '501'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BJ.svg",
-        "Benin (Bénin)",
-        "bj",
-        "229"
+        'Benin (Bénin)',
+        CountryISO.Benin,
+        '229'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg",
-        "Bermuda",
-        "bm",
-        "1",
+        'Bermuda',
+        'bm',
+        '1',
         1,
         [
-            "441"
+            '441',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg",
-        "Bhutan (འབྲུག)",
-        "bt",
-        "975"
+        'Bhutan (འབྲུག)',
+        CountryISO.Bhutan,
+        '975'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BO.svg",
-        "Bolivia",
-        "bo",
-        "591"
+        'Bolivia',
+        CountryISO.Bolivia,
+        '591'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg",
-        "Bosnia and Herzegovina (Босна и Херцеговина)",
-        "ba",
-        "387"
+        'Bosnia and Herzegovina (Босна и Херцеговина)',
+        CountryISO.BosniaAndHerzegovina,
+        '387'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BW.svg",
-        "Botswana",
-        "bw",
-        "267"
+        'Botswana',
+        CountryISO.Botswana,
+        '267'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg",
-        "Brazil (Brasil)",
-        "br",
-        "55"
+        'Brazil (Brasil)',
+        CountryISO.Brazil,
+        '55'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IO.svg",
-        "British Indian Ocean Territory",
-        "io",
-        "246"
+        'British Indian Ocean Territory',
+        CountryISO.BritishIndianOceanTerritory,
+        '246'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VG.svg",
-        "British Virgin Islands",
-        "vg",
-        "1",
+        'British Virgin Islands',
+        'vg',
+        '1',
         1,
         [
-            "284"
+            '284',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BN.svg",
-        "Brunei",
-        "bn",
-        "673"
+        'Brunei',
+        CountryISO.Brunei,
+        '673'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg",
-        "Bulgaria (България)",
-        "bg",
-        "359"
+        'Bulgaria (България)',
+        CountryISO.Bulgaria,
+        '359'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BF.svg",
-        "Burkina Faso",
-        "bf",
-        "226"
+        'Burkina Faso',
+        CountryISO.BurkinaFaso,
+        '226'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg",
-        "Burundi (Uburundi)",
-        "bi",
-        "257"
+        'Burundi (Uburundi)',
+        CountryISO.Burundi,
+        '257'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KH.svg",
-        "Cambodia (កម្ពុជា)",
-        "kh",
-        "855"
+        'Cambodia (កម្ពុជា)',
+        CountryISO.Cambodia,
+        '855'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CM.svg",
-        "Cameroon (Cameroun)",
-        "cm",
-        "237"
+        'Cameroon (Cameroun)',
+        CountryISO.Cameroon,
+        '237'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg",
-        "Canada",
-        "ca",
-        "1",
+        'Canada',
+        CountryISO.Canada,
+        '1',
         1,
         [
-            "204",
-            "226",
-            "236",
-            "249",
-            "250",
-            "289",
-            "306",
-            "343",
-            "365",
-            "387",
-            "403",
-            "416",
-            "418",
-            "431",
-            "437",
-            "438",
-            "450",
-            "506",
-            "514",
-            "519",
-            "548",
-            "579",
-            "581",
-            "587",
-            "604",
-            "613",
-            "639",
-            "647",
-            "672",
-            "705",
-            "709",
-            "742",
-            "778",
-            "780",
-            "782",
-            "807",
-            "819",
-            "825",
-            "867",
-            "873",
-            "902",
-            "905"
+            '204', '226', '236', '249', '250', '289', '306', '343', '365', '387', '403', '416',
+            '418', '431', '437', '438', '450', '506', '514', '519', '548', '579', '581', '587',
+            '604', '613', '639', '647', '672', '705', '709', '742', '778', '780', '782', '807',
+            '819', '825', '867', '873', '902', '905'
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CV.svg",
-        "Cape Verde (Kabu Verdi)",
-        "cv",
-        "238"
+        'Cape Verde (Kabu Verdi)',
+        CountryISO.CapeVerde,
+        '238'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BQ.svg",
-        "Caribbean Netherlands",
-        "bq",
-        "599",
+        'Caribbean Netherlands',
+        CountryISO.CaribbeanNetherlands,
+        '599',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KY.svg",
-        "Cayman Islands",
-        "ky",
-        "1",
+        'Cayman Islands',
+        'ky',
+        '1',
         1,
         [
-            "345"
+            '345',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CF.svg",
-        "Central African Republic (République centrafricaine)",
-        "cf",
-        "236"
+        'Central African Republic (République centrafricaine)',
+        CountryISO.CentralAfricanRepublic,
+        '236'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TD.svg",
-        "Chad (Tchad)",
-        "td",
-        "235"
+        'Chad (Tchad)',
+        CountryISO.Chad,
+        '235'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CL.svg",
-        "Chile",
-        "cl",
-        "56"
+        'Chile',
+        CountryISO.Chile,
+        '56'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CN.svg",
-        "China (中国)",
-        "cn",
-        "86"
+        'China (中国)',
+        CountryISO.China,
+        '86'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CX.svg",
-        "Christmas Island",
-        "cx",
-        "61",
+        'Christmas Island',
+        CountryISO.ChristmasIsland,
+        '61',
         2
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CC.svg",
-        "Cocos (Keeling) Islands",
-        "cc",
-        "61",
+        'Cocos (Keeling) Islands',
+        CountryISO.Cocos,
+        '61',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CO.svg",
-        "Colombia",
-        "co",
-        "57"
+        'Colombia',
+        CountryISO.Colombia,
+        '57'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KM.svg",
-        "Comoros (‫جزر القمر‬‎)",
-        "km",
-        "269"
+        'Comoros (‫جزر القمر‬‎)',
+        CountryISO.Comoros,
+        '269'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CD.svg",
-        "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
-        "cd",
-        "243"
+        'Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)',
+        CountryISO.CongoDRCJamhuriYaKidemokrasiaYaKongo,
+        '243'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CG.svg",
-        "Congo (Republic) (Congo-Brazzaville)",
-        "cg",
-        "242"
+        'Congo (Republic) (Congo-Brazzaville)',
+        CountryISO.CongoRepublicCongoBrazzaville,
+        '242'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CK.svg",
-        "Cook Islands",
-        "ck",
-        "682"
+        'Cook Islands',
+        CountryISO.CookIslands,
+        '682'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CR.svg",
-        "Costa Rica",
-        "cr",
-        "506"
+        'Costa Rica',
+        CountryISO.CostaRica,
+        '506'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CI.svg",
-        "Côte d’Ivoire",
-        "ci",
-        "225"
+        'Côte d’Ivoire',
+        CountryISO.CôteDIvoire,
+        '225'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HR.svg",
-        "Croatia (Hrvatska)",
-        "hr",
-        "385"
+        'Croatia (Hrvatska)',
+        CountryISO.Croatia,
+        '385'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CU.svg",
-        "Cuba",
-        "cu",
-        "53"
+        'Cuba',
+        CountryISO.Cuba,
+        '53'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CW.svg",
-        "Curaçao",
-        "cw",
-        "599",
+        'Curaçao',
+        CountryISO.Curaçao,
+        '599',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CY.svg",
-        "Cyprus (Κύπρος)",
-        "cy",
-        "357"
+        'Cyprus (Κύπρος)',
+        CountryISO.Cyprus,
+        '357'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CZ.svg",
-        "Czech Republic (Česká republika)",
-        "cz",
-        "420"
+        'Czech Republic (Česká republika)',
+        CountryISO.CzechRepublic,
+        '420'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DK.svg",
-        "Denmark (Danmark)",
-        "dk",
-        "45"
+        'Denmark (Danmark)',
+        CountryISO.Denmark,
+        '45'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DJ.svg",
-        "Djibouti",
-        "dj",
-        "253"
+        'Djibouti',
+        CountryISO.Djibouti,
+        '253'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DM.svg",
-        "Dominica",
-        "dm",
-        "1767"
+        'Dominica',
+        CountryISO.Dominica,
+        '1767'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg",
-        "Dominican Republic (República Dominicana)",
-        "do",
-        "1",
+        'Dominican Republic (República Dominicana)',
+        CountryISO.DominicanRepublic,
+        '1',
         2,
-        [
-            "809",
-            "829",
-            "849"
-        ]
+        ['809', '829', '849']
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EC.svg",
-        "Ecuador",
-        "ec",
-        "593"
+        'Ecuador',
+        CountryISO.Ecuador,
+        '593'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EG.svg",
-        "Egypt (‫مصر‬‎)",
-        "eg",
-        "20"
+        'Egypt (‫مصر‬‎)',
+        CountryISO.Egypt,
+        '20'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SV.svg",
-        "El Salvador",
-        "sv",
-        "503"
+        'El Salvador',
+        CountryISO.ElSalvador,
+        '503'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GQ.svg",
-        "Equatorial Guinea (Guinea Ecuatorial)",
-        "gq",
-        "240"
+        'Equatorial Guinea (Guinea Ecuatorial)',
+        CountryISO.EquatorialGuinea,
+        '240'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ER.svg",
-        "Eritrea",
-        "er",
-        "291"
+        'Eritrea',
+        CountryISO.Eritrea,
+        '291'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EE.svg",
-        "Estonia (Eesti)",
-        "ee",
-        "372"
+        'Estonia (Eesti)',
+        CountryISO.Estonia,
+        '372'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ET.svg",
-        "Ethiopia",
-        "et",
-        "251"
+        'Ethiopia',
+        CountryISO.Ethiopia,
+        '251'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FK.svg",
-        "Falkland Islands (Islas Malvinas)",
-        "fk",
-        "500"
+        'Falkland Islands (Islas Malvinas)',
+        CountryISO.FalklandIslands,
+        '500'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FO.svg",
-        "Faroe Islands (Føroyar)",
-        "fo",
-        "298"
+        'Faroe Islands (Føroyar)',
+        CountryISO.FaroeIslands,
+        '298'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FJ.svg",
-        "Fiji",
-        "fj",
-        "679"
+        'Fiji',
+        CountryISO.Fiji,
+        '679'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FI.svg",
-        "Finland (Suomi)",
-        "fi",
-        "358",
+        'Finland (Suomi)',
+        CountryISO.Finland,
+        '358',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FR.svg",
-        "France",
-        "fr",
-        "33"
+        'France',
+        CountryISO.France,
+        '33'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GF.svg",
-        "French Guiana (Guyane française)",
-        "gf",
-        "594"
+        'French Guiana (Guyane française)',
+        CountryISO.FrenchGuiana,
+        '594'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PF.svg",
-        "French Polynesia (Polynésie française)",
-        "pf",
-        "689"
+        'French Polynesia (Polynésie française)',
+        CountryISO.FrenchPolynesia,
+        '689'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GA.svg",
-        "Gabon",
-        "ga",
-        "241"
+        'Gabon',
+        CountryISO.Gabon,
+        '241'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GM.svg",
-        "Gambia",
-        "gm",
-        "220"
+        'Gambia',
+        CountryISO.Gambia,
+        '220'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg",
-        "Georgia (საქართველო)",
-        "ge",
-        "995"
+        'Georgia (საქართველო)',
+        CountryISO.Georgia,
+        '995'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DE.svg",
-        "Germany (Deutschland)",
-        "de",
-        "49"
+        'Germany (Deutschland)',
+        CountryISO.Germany,
+        '49'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GH.svg",
-        "Ghana (Gaana)",
-        "gh",
-        "233"
+        'Ghana (Gaana)',
+        CountryISO.Ghana,
+        '233'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GI.svg",
-        "Gibraltar",
-        "gi",
-        "350"
+        'Gibraltar',
+        CountryISO.Gibraltar,
+        '350'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GR.svg",
-        "Greece (Ελλάδα)",
-        "gr",
-        "30"
+        'Greece (Ελλάδα)',
+        CountryISO.Greece,
+        '30'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GL.svg",
-        "Greenland (Kalaallit Nunaat)",
-        "gl",
-        "299"
+        'Greenland (Kalaallit Nunaat)',
+        CountryISO.Greenland,
+        '299'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GD.svg",
-        "Grenada",
-        "gd",
-        "1473"
+        'Grenada',
+        CountryISO.Grenada,
+        '1473'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GP.svg",
-        "Guadeloupe",
-        "gp",
-        "590",
+        'Guadeloupe',
+        CountryISO.Guadeloupe,
+        '590',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GU.svg",
-        "Guam",
-        "gu",
-        "1",
+        'Guam',
+        'gu',
+        '1',
         1,
         [
-            "671"
+            '671',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GT.svg",
-        "Guatemala",
-        "gt",
-        "502"
+        'Guatemala',
+        CountryISO.Guatemala,
+        '502'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GG.svg",
-        "Guernsey",
-        "gg",
-        "44",
+        'Guernsey',
+        CountryISO.Guernsey,
+        '44',
         1,
-        [
-            1481
-        ]
+        [1481]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GN.svg",
-        "Guinea (Guinée)",
-        "gn",
-        "224"
+        'Guinea (Guinée)',
+        CountryISO.Guinea,
+        '224'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GW.svg",
-        "Guinea-Bissau (Guiné Bissau)",
-        "gw",
-        "245"
+        'Guinea-Bissau (Guiné Bissau)',
+        CountryISO.GuineaBissau,
+        '245'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GY.svg",
-        "Guyana",
-        "gy",
-        "592"
+        'Guyana',
+        CountryISO.Guyana,
+        '592'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HT.svg",
-        "Haiti",
-        "ht",
-        "509"
+        'Haiti',
+        CountryISO.Haiti,
+        '509'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HN.svg",
-        "Honduras",
-        "hn",
-        "504"
+        'Honduras',
+        CountryISO.Honduras,
+        '504'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HK.svg",
-        "Hong Kong (香港)",
-        "hk",
-        "852"
+        'Hong Kong (香港)',
+        CountryISO.HongKong,
+        '852'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HU.svg",
-        "Hungary (Magyarország)",
-        "hu",
-        "36"
+        'Hungary (Magyarország)',
+        CountryISO.Hungary,
+        '36'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IS.svg",
-        "Iceland (Ísland)",
-        "is",
-        "354"
+        'Iceland (Ísland)',
+        CountryISO.Iceland,
+        '354'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-        "India (भारत)",
-        "in",
-        "91"
+        'India (भारत)',
+        CountryISO.India,
+        '91'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ID.svg",
-        "Indonesia",
-        "id",
-        "62"
+        'Indonesia',
+        CountryISO.Indonesia,
+        '62'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
-        "Iran (‫ایران‬‎)",
-        "ir",
-        "98"
+        'Iran (‫ایران‬‎)',
+        CountryISO.Iran,
+        '98'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IQ.svg",
-        "Iraq (‫العراق‬‎)",
-        "iq",
-        "964"
+        'Iraq (‫العراق‬‎)',
+        CountryISO.Iraq,
+        '964'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IE.svg",
-        "Ireland",
-        "ie",
-        "353"
+        'Ireland',
+        CountryISO.Ireland,
+        '353'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IM.svg",
-        "Isle of Man",
-        "im",
-        "44",
+        'Isle of Man',
+        CountryISO.IsleOfMan,
+        '44',
         2,
-        [
-            1624
-        ]
+        [1624]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IL.svg",
-        "Israel (‫ישראל‬‎)",
-        "il",
-        "972"
+        'Israel (‫ישראל‬‎)',
+        CountryISO.Israel,
+        '972'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg",
-        "Italy (Italia)",
-        "it",
-        "39",
+        'Italy (Italia)',
+        CountryISO.Italy,
+        '39',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JM.svg",
-        "Jamaica",
-        "jm",
-        "1",
+        'Jamaica',
+        'jm',
+        '1',
         1,
         [
-            "876"
+            '876',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JP.svg",
-        "Japan (日本)",
-        "jp",
-        "81"
+        'Japan (日本)',
+        CountryISO.Japan,
+        '81'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JE.svg",
-        "Jersey",
-        "je",
-        "44",
+        'Jersey',
+        CountryISO.Jersey,
+        '44',
         3,
-        [
-            1534
-        ]
+        [1534]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg",
-        "Jordan (‫الأردن‬‎)",
-        "jo",
-        "962"
+        'Jordan (‫الأردن‬‎)',
+        CountryISO.Jordan,
+        '962'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KZ.svg",
-        "Kazakhstan (Казахстан)",
-        "kz",
-        "7",
+        'Kazakhstan (Казахстан)',
+        CountryISO.Kazakhstan,
+        '7',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg",
-        "Kenya",
-        "ke",
-        "254"
+        'Kenya',
+        CountryISO.Kenya,
+        '254'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KI.svg",
-        "Kiribati",
-        "ki",
-        "686"
+        'Kiribati',
+        CountryISO.Kiribati,
+        '686'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/XK.svg",
-        "Kosovo",
-        "xk",
-        "383"
+        'Kosovo',
+        CountryISO.Kosovo,
+        '383'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KW.svg",
-        "Kuwait (‫الكويت‬‎)",
-        "kw",
-        "965"
+        'Kuwait (‫الكويت‬‎)',
+        CountryISO.Kuwait,
+        '965'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KG.svg",
-        "Kyrgyzstan (Кыргызстан)",
-        "kg",
-        "996"
+        'Kyrgyzstan (Кыргызстан)',
+        CountryISO.Kyrgyzstan,
+        '996'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LA.svg",
-        "Laos (ລາວ)",
-        "la",
-        "856"
+        'Laos (ລາວ)',
+        CountryISO.Laos,
+        '856'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LV.svg",
-        "Latvia (Latvija)",
-        "lv",
-        "371"
+        'Latvia (Latvija)',
+        CountryISO.Latvia,
+        '371'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg",
-        "Lebanon (‫لبنان‬‎)",
-        "lb",
-        "961"
+        'Lebanon (‫لبنان‬‎)',
+        CountryISO.Lebanon,
+        '961'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LS.svg",
-        "Lesotho",
-        "ls",
-        "266"
+        'Lesotho',
+        CountryISO.Lesotho,
+        '266'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg",
-        "Liberia",
-        "lr",
-        "231"
+        'Liberia',
+        CountryISO.Liberia,
+        '231'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LY.svg",
-        "Libya (‫ليبيا‬‎)",
-        "ly",
-        "218"
+        'Libya (‫ليبيا‬‎)',
+        CountryISO.Libya,
+        '218'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LI.svg",
-        "Liechtenstein",
-        "li",
-        "423"
+        'Liechtenstein',
+        CountryISO.Liechtenstein,
+        '423'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LT.svg",
-        "Lithuania (Lietuva)",
-        "lt",
-        "370"
+        'Lithuania (Lietuva)',
+        CountryISO.Lithuania,
+        '370'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LU.svg",
-        "Luxembourg",
-        "lu",
-        "352"
+        'Luxembourg',
+        CountryISO.Luxembourg,
+        '352'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MO.svg",
-        "Macau (澳門)",
-        "mo",
-        "853"
+        'Macau (澳門)',
+        CountryISO.Macau,
+        '853'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MK.svg",
-        "Macedonia (FYROM) (Македонија)",
-        "mk",
-        "389"
+        'Macedonia (FYROM) (Македонија)',
+        CountryISO.Macedonia,
+        '389'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MG.svg",
-        "Madagascar (Madagasikara)",
-        "mg",
-        "261"
+        'Madagascar (Madagasikara)',
+        CountryISO.Madagascar,
+        '261'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg",
-        "Malawi",
-        "mw",
-        "265"
+        'Malawi',
+        CountryISO.Malawi,
+        '265'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg",
-        "Malaysia",
-        "my",
-        "60"
+        'Malaysia',
+        CountryISO.Malaysia,
+        '60'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MV.svg",
-        "Maldives",
-        "mv",
-        "960"
+        'Maldives',
+        CountryISO.Maldives,
+        '960'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ML.svg",
-        "Mali",
-        "ml",
-        "223"
+        'Mali',
+        CountryISO.Mali,
+        '223'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MT.svg",
-        "Malta",
-        "mt",
-        "356"
+        'Malta',
+        CountryISO.Malta,
+        '356'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MH.svg",
-        "Marshall Islands",
-        "mh",
-        "692"
+        'Marshall Islands',
+        CountryISO.MarshallIslands,
+        '692'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MQ.svg",
-        "Martinique",
-        "mq",
-        "596"
+        'Martinique',
+        CountryISO.Martinique,
+        '596'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MR.svg",
-        "Mauritania (‫موريتانيا‬‎)",
-        "mr",
-        "222"
+        'Mauritania (‫موريتانيا‬‎)',
+        CountryISO.Mauritania,
+        '222'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MU.svg",
-        "Mauritius (Moris)",
-        "mu",
-        "230"
+        'Mauritius (Moris)',
+        CountryISO.Mauritius,
+        '230'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YT.svg",
-        "Mayotte",
-        "yt",
-        "262",
+        'Mayotte',
+        CountryISO.Mayotte,
+        '262',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg",
-        "Mexico (México)",
-        "mx",
-        "52"
+        'Mexico (México)',
+        CountryISO.Mexico,
+        '52'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FM.svg",
-        "Micronesia",
-        "fm",
-        "691"
+        'Micronesia',
+        CountryISO.Micronesia,
+        '691'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MD.svg",
-        "Moldova (Republica Moldova)",
-        "md",
-        "373"
+        'Moldova (Republica Moldova)',
+        CountryISO.Moldova,
+        '373'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MC.svg",
-        "Monaco",
-        "mc",
-        "377"
+        'Monaco',
+        CountryISO.Monaco,
+        '377'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MN.svg",
-        "Mongolia (Монгол)",
-        "mn",
-        "976"
+        'Mongolia (Монгол)',
+        CountryISO.Mongolia,
+        '976'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ME.svg",
-        "Montenegro (Crna Gora)",
-        "me",
-        "382"
+        'Montenegro (Crna Gora)',
+        CountryISO.Montenegro,
+        '382'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MS.svg",
-        "Montserrat",
-        "ms",
-        "1",
+        'Montserrat',
+        'ms',
+        '1',
         1,
         [
-            "664"
+            '664',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MA.svg",
-        "Morocco (‫المغرب‬‎)",
-        "ma",
-        "212",
+        'Morocco (‫المغرب‬‎)',
+        CountryISO.Morocco,
+        '212',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MZ.svg",
-        "Mozambique (Moçambique)",
-        "mz",
-        "258"
+        'Mozambique (Moçambique)',
+        CountryISO.Mozambique,
+        '258'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MM.svg",
-        "Myanmar (Burma) (မြန်မာ)",
-        "mm",
-        "95"
+        'Myanmar (Burma) (မြန်မာ)',
+        CountryISO.Myanmar,
+        '95'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NA.svg",
-        "Namibia (Namibië)",
-        "na",
-        "264"
+        'Namibia (Namibië)',
+        CountryISO.Namibia,
+        '264'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NR.svg",
-        "Nauru",
-        "nr",
-        "674"
+        'Nauru',
+        CountryISO.Nauru,
+        '674'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NP.svg",
-        "Nepal (नेपाल)",
-        "np",
-        "977"
+        'Nepal (नेपाल)',
+        CountryISO.Nepal,
+        '977'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg",
-        "Netherlands (Nederland)",
-        "nl",
-        "31"
+        'Netherlands (Nederland)',
+        CountryISO.Netherlands,
+        '31'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NC.svg",
-        "New Caledonia (Nouvelle-Calédonie)",
-        "nc",
-        "687"
+        'New Caledonia (Nouvelle-Calédonie)',
+        CountryISO.NewCaledonia,
+        '687'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NZ.svg",
-        "New Zealand",
-        "nz",
-        "64"
+        'New Zealand',
+        CountryISO.NewZealand,
+        '64'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg",
-        "Nicaragua",
-        "ni",
-        "505"
+        'Nicaragua',
+        CountryISO.Nicaragua,
+        '505'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NE.svg",
-        "Niger (Nijar)",
-        "ne",
-        "227"
+        'Niger (Nijar)',
+        CountryISO.Niger,
+        '227'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
-        "Nigeria",
-        "ng",
-        "234"
+        'Nigeria',
+        CountryISO.Nigeria,
+        '234'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NU.svg",
-        "Niue",
-        "nu",
-        "683"
+        'Niue',
+        CountryISO.Niue,
+        '683'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NF.svg",
-        "Norfolk Island",
-        "nf",
-        "672"
+        'Norfolk Island',
+        CountryISO.NorfolkIsland,
+        '672'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KP.svg",
-        "North Korea (조선 민주주의 인민 공화국)",
-        "kp",
-        "850"
+        'North Korea (조선 민주주의 인민 공화국)',
+        CountryISO.NorthKorea,
+        '850'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MP.svg",
-        "Northern Mariana Islands",
-        "mp",
-        "1670"
+        'Northern Mariana Islands',
+        CountryISO.NorthernMarianaIslands,
+        '1670'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NO.svg",
-        "Norway (Norge)",
-        "no",
-        "47",
+        'Norway (Norge)',
+        CountryISO.Norway,
+        '47',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/OM.svg",
-        "Oman (‫عُمان‬‎)",
-        "om",
-        "968"
+        'Oman (‫عُمان‬‎)',
+        CountryISO.Oman,
+        '968'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
-        "Pakistan (‫پاکستان‬‎)",
-        "pk",
-        "92"
+        'Pakistan (‫پاکستان‬‎)',
+        CountryISO.Pakistan,
+        '92'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PW.svg",
-        "Palau",
-        "pw",
-        "680"
+        'Palau',
+        CountryISO.Palau,
+        '680'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PS.svg",
-        "Palestine (‫فلسطين‬‎)",
-        "ps",
-        "970"
+        'Palestine (‫فلسطين‬‎)',
+        CountryISO.Palestine,
+        '970'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PA.svg",
-        "Panama (Panamá)",
-        "pa",
-        "507"
+        'Panama (Panamá)',
+        CountryISO.Panama,
+        '507'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PG.svg",
-        "Papua New Guinea",
-        "pg",
-        "675"
+        'Papua New Guinea',
+        CountryISO.PapuaNewGuinea,
+        '675'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PY.svg",
-        "Paraguay",
-        "py",
-        "595"
+        'Paraguay',
+        CountryISO.Paraguay,
+        '595'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg",
-        "Peru (Perú)",
-        "pe",
-        "51"
+        'Peru (Perú)',
+        CountryISO.Peru,
+        '51'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PH.svg",
-        "Philippines",
-        "ph",
-        "63"
+        'Philippines',
+        CountryISO.Philippines,
+        '63'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PL.svg",
-        "Poland (Polska)",
-        "pl",
-        "48"
+        'Poland (Polska)',
+        CountryISO.Poland,
+        '48'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PT.svg",
-        "Portugal",
-        "pt",
-        "351"
+        'Portugal',
+        CountryISO.Portugal,
+        '351'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg",
-        "Puerto Rico",
-        "pr",
-        "1",
+        'Puerto Rico',
+        CountryISO.PuertoRico,
+        '1',
         3,
-        [
-            "787",
-            "939"
-        ]
+        ['787', '939']
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/QA.svg",
-        "Qatar (‫قطر‬‎)",
-        "qa",
-        "974"
+        'Qatar (‫قطر‬‎)',
+        CountryISO.Qatar,
+        '974'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RE.svg",
-        "Réunion (La Réunion)",
-        "re",
-        "262",
+        'Réunion (La Réunion)',
+        CountryISO.Réunion,
+        '262',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RO.svg",
-        "Romania (România)",
-        "ro",
-        "40"
+        'Romania (România)',
+        CountryISO.Romania,
+        '40'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RU.svg",
-        "Russia (Россия)",
-        "ru",
-        "7",
+        'Russia (Россия)',
+        CountryISO.Russia,
+        '7',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RW.svg",
-        "Rwanda",
-        "rw",
-        "250"
+        'Rwanda',
+        CountryISO.Rwanda,
+        '250'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BL.svg",
-        "Saint Barthélemy (Saint-Barthélemy)",
-        "bl",
-        "590",
+        'Saint Barthélemy (Saint-Barthélemy)',
+        CountryISO.SaintBarthélemy,
+        '590',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SH.svg",
-        "Saint Helena",
-        "sh",
-        "290"
+        'Saint Helena',
+        CountryISO.SaintHelena,
+        '290'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KN.svg",
-        "Saint Kitts and Nevis",
-        "kn",
-        "1869"
+        'Saint Kitts and Nevis',
+        CountryISO.SaintKittsAndNevis,
+        '1869'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LC.svg",
-        "Saint Lucia",
-        "lc",
-        "1",
+        'Saint Lucia',
+        'lc',
+        '1',
         1,
         [
-            "758"
+            '758',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MF.svg",
-        "Saint Martin (Saint-Martin (partie française))",
-        "mf",
-        "590",
+        'Saint Martin (Saint-Martin (partie française))',
+        CountryISO.SaintMartin,
+        '590',
         2
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PM.svg",
-        "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)",
-        "pm",
-        "508"
+        'Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)',
+        CountryISO.SaintPierreAndMiquelon,
+        '508'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VC.svg",
-        "Saint Vincent and the Grenadines",
-        "vc",
-        "1",
+        'Saint Vincent and the Grenadines',
+        'vc',
+        '1',
         1,
         [
-            "784"
+            '784',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg",
-        "Samoa",
-        "ws",
-        "685"
+        'Samoa',
+        CountryISO.Samoa,
+        '685'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SM.svg",
-        "San Marino",
-        "sm",
-        "378"
+        'San Marino',
+        CountryISO.SanMarino,
+        '378'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ST.svg",
-        "São Tomé and Príncipe (São Tomé e Príncipe)",
-        "st",
-        "239"
+        'São Tomé and Príncipe (São Tomé e Príncipe)',
+        CountryISO.SãoToméAndPríncipe,
+        '239'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SA.svg",
-        "Saudi Arabia (‫المملكة العربية السعودية‬‎)",
-        "sa",
-        "966"
+        'Saudi Arabia (‫المملكة العربية السعودية‬‎)',
+        CountryISO.SaudiArabia,
+        '966'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SN.svg",
-        "Senegal (Sénégal)",
-        "sn",
-        "221"
+        'Senegal (Sénégal)',
+        CountryISO.Senegal,
+        '221'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RS.svg",
-        "Serbia (Србија)",
-        "rs",
-        "381"
+        'Serbia (Србија)',
+        CountryISO.Serbia,
+        '381'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SC.svg",
-        "Seychelles",
-        "sc",
-        "248"
+        'Seychelles',
+        CountryISO.Seychelles,
+        '248'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SL.svg",
-        "Sierra Leone",
-        "sl",
-        "232"
+        'Sierra Leone',
+        CountryISO.SierraLeone,
+        '232'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SG.svg",
-        "Singapore",
-        "sg",
-        "65"
+        'Singapore',
+        CountryISO.Singapore,
+        '65'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SX.svg",
-        "Sint Maarten",
-        "sx",
-        "1",
+        'Sint Maarten',
+        'sx',
+        '1',
         1,
         [
-            "721"
+            '721',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SK.svg",
-        "Slovakia (Slovensko)",
-        "sk",
-        "421"
+        'Slovakia (Slovensko)',
+        CountryISO.Slovakia,
+        '421'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SI.svg",
-        "Slovenia (Slovenija)",
-        "si",
-        "386"
+        'Slovenia (Slovenija)',
+        CountryISO.Slovenia,
+        '386'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SB.svg",
-        "Solomon Islands",
-        "sb",
-        "677"
+        'Solomon Islands',
+        CountryISO.SolomonIslands,
+        '677'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg",
-        "Somalia (Soomaaliya)",
-        "so",
-        "252"
+        'Somalia (Soomaaliya)',
+        CountryISO.Somalia,
+        '252'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZA.svg",
-        "South Africa",
-        "za",
-        "27"
+        'South Africa',
+        CountryISO.SouthAfrica,
+        '27'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KR.svg",
-        "South Korea (대한민국)",
-        "kr",
-        "82"
+        'South Korea (대한민국)',
+        CountryISO.SouthKorea,
+        '82'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SS.svg",
-        "South Sudan (‫جنوب السودان‬‎)",
-        "ss",
-        "211"
+        'South Sudan (‫جنوب السودان‬‎)',
+        CountryISO.SouthSudan,
+        '211'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ES.svg",
-        "Spain (España)",
-        "es",
-        "34"
+        'Spain (España)',
+        CountryISO.Spain,
+        '34'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg",
-        "Sri Lanka (ශ්‍රී ලංකාව)",
-        "lk",
-        "94"
+        'Sri Lanka (ශ්‍රී ලංකාව)',
+        CountryISO.SriLanka,
+        '94'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SD.svg",
-        "Sudan (‫السودان‬‎)",
-        "sd",
-        "249"
+        'Sudan (‫السودان‬‎)',
+        CountryISO.Sudan,
+        '249'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg",
-        "Suriname",
-        "sr",
-        "597"
+        'Suriname',
+        CountryISO.Suriname,
+        '597'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SJ.svg",
-        "Svalbard and Jan Mayen",
-        "sj",
-        "47",
+        'Svalbard and Jan Mayen',
+        CountryISO.SvalbardAndJanMayen,
+        '47',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SZ.svg",
-        "Swaziland",
-        "sz",
-        "268"
+        'Swaziland',
+        CountryISO.Swaziland,
+        '268'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SE.svg",
-        "Sweden (Sverige)",
-        "se",
-        "46"
+        'Sweden (Sverige)',
+        CountryISO.Sweden,
+        '46'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CH.svg",
-        "Switzerland (Schweiz)",
-        "ch",
-        "41"
+        'Switzerland (Schweiz)',
+        CountryISO.Switzerland,
+        '41'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SY.svg",
-        "Syria (‫سوريا‬‎)",
-        "sy",
-        "963"
+        'Syria (‫سوريا‬‎)',
+        CountryISO.Syria,
+        '963'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TW.svg",
-        "Taiwan (台灣)",
-        "tw",
-        "886"
+        'Taiwan (台灣)',
+        CountryISO.Taiwan,
+        '886'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TJ.svg",
-        "Tajikistan",
-        "tj",
-        "992"
+        'Tajikistan',
+        CountryISO.Tajikistan,
+        '992'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TZ.svg",
-        "Tanzania",
-        "tz",
-        "255"
+        'Tanzania',
+        CountryISO.Tanzania,
+        '255'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TH.svg",
-        "Thailand (ไทย)",
-        "th",
-        "66"
+        'Thailand (ไทย)',
+        CountryISO.Thailand,
+        '66'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TL.svg",
-        "Timor-Leste",
-        "tl",
-        "670"
+        'Timor-Leste',
+        CountryISO.TimorLeste,
+        '670'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TG.svg",
-        "Togo",
-        "tg",
-        "228"
+        'Togo',
+        CountryISO.Togo,
+        '228'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TK.svg",
-        "Tokelau",
-        "tk",
-        "690"
+        'Tokelau',
+        CountryISO.Tokelau,
+        '690'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TO.svg",
-        "Tonga",
-        "to",
-        "676"
+        'Tonga',
+        CountryISO.Tonga,
+        '676'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TT.svg",
-        "Trinidad and Tobago",
-        "tt",
-        "1",
+        'Trinidad and Tobago',
+        'tt',
+        '1',
         1,
         [
-            "868"
+            '868',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg",
-        "Tunisia (‫تونس‬‎)",
-        "tn",
-        "216"
+        'Tunisia (‫تونس‬‎)',
+        CountryISO.Tunisia,
+        '216'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TR.svg",
-        "Turkey (Türkiye)",
-        "tr",
-        "90"
+        'Turkey (Türkiye)',
+        CountryISO.Turkey,
+        '90'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TM.svg",
-        "Turkmenistan",
-        "tm",
-        "993"
+        'Turkmenistan',
+        CountryISO.Turkmenistan,
+        '993'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TC.svg",
-        "Turks and Caicos Islands",
-        "tc",
-        "1649"
+        'Turks and Caicos Islands',
+        CountryISO.TurksAndCaicosIslands,
+        '1649'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TV.svg",
-        "Tuvalu",
-        "tv",
-        "688"
+        'Tuvalu',
+        CountryISO.Tuvalu,
+        '688'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VI.svg",
-        "U.S. Virgin Islands",
-        "vi",
-        "1",
+        'U.S. Virgin Islands',
+        'vi',
+        '1',
         1,
         [
-            "340"
+            '340',
         ]
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UG.svg",
-        "Uganda",
-        "ug",
-        "256"
+        'Uganda',
+        CountryISO.Uganda,
+        '256'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg",
-        "Ukraine (Україна)",
-        "ua",
-        "380"
+        'Ukraine (Україна)',
+        CountryISO.Ukraine,
+        '380'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
-        "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)",
-        "ae",
-        "971"
+        'United Arab Emirates (‫الإمارات العربية المتحدة‬‎)',
+        CountryISO.UnitedArabEmirates,
+        '971'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
-        "United Kingdom",
-        "gb",
-        "44",
+        'United Kingdom',
+        CountryISO.UnitedKingdom,
+        '44',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
-        "United States",
-        "us",
-        "1",
+        'United States',
+        CountryISO.UnitedStates,
+        '1',
         0
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UY.svg",
-        "Uruguay",
-        "uy",
-        "598"
+        'Uruguay',
+        CountryISO.Uruguay,
+        '598'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UZ.svg",
-        "Uzbekistan (Oʻzbekiston)",
-        "uz",
-        "998"
+        'Uzbekistan (Oʻzbekiston)',
+        CountryISO.Uzbekistan,
+        '998'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VU.svg",
-        "Vanuatu",
-        "vu",
-        "678"
+        'Vanuatu',
+        CountryISO.Vanuatu,
+        '678'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VA.svg",
-        "Vatican City (Città del Vaticano)",
-        "va",
-        "39",
+        'Vatican City (Città del Vaticano)',
+        CountryISO.VaticanCity,
+        '39',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VE.svg",
-        "Venezuela",
-        "ve",
-        "58"
+        'Venezuela',
+        CountryISO.Venezuela,
+        '58'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VN.svg",
-        "Vietnam (Việt Nam)",
-        "vn",
-        "84"
+        'Vietnam (Việt Nam)',
+        CountryISO.Vietnam,
+        '84'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WF.svg",
-        "Wallis and Futuna",
-        "wf",
-        "681"
+        'Wallis and Futuna',
+        CountryISO.WallisAndFutuna,
+        '681'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EH.svg",
-        "Western Sahara (‫الصحراء الغربية‬‎)",
-        "eh",
-        "212",
+        'Western Sahara (‫الصحراء الغربية‬‎)',
+        CountryISO.WesternSahara,
+        '212',
         1
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YE.svg",
-        "Yemen (‫اليمن‬‎)",
-        "ye",
-        "967"
+        'Yemen (‫اليمن‬‎)',
+        CountryISO.Yemen,
+        '967'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZM.svg",
-        "Zambia",
-        "zm",
-        "260"
+        'Zambia',
+        CountryISO.Zambia,
+        '260'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZW.svg",
-        "Zimbabwe",
-        "zw",
-        "263"
+        'Zimbabwe',
+        CountryISO.Zimbabwe,
+        '263'
     ],
     [
-        "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AX.svg",
-        "Åland Islands",
-        "ax",
-        "358",
+        'Åland Islands',
+        CountryISO.ÅlandIslands,
+        '358',
         1
     ]
-]
+];

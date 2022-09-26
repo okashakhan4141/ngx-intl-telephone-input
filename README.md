@@ -117,7 +117,7 @@ import {
 
 | Sr. | Parameters               | Data Type                  | Default Value                     | Description                                                                                                                                  |
 | --- | ------------------------ | -------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | cssClass                 | `string`                   | `'' `                             | Custom CSS Class that'll be added to main container.                                                                                         |
+| 01  | cssClass                 | `string`                   | `'' `                             | Custom CSS Class that'll be added to phone number's input element.                                                                           |
 | 02  | preferredCountries       | `(CountryISO)[]`           | `[]`                              | List of countries, that will appear at the top saperated by horizental line from all countries.                                              |
 | 03  | onlyCountries            | `(CountryISO)[]`           | `[]`                              | List of countries, that will appear in the dropdown. Preferred countries will depends upon this list.                                        |
 | 04  | enableAutoCountrySelect  | `boolean`                  | `true`                            | If `true` and `INTERNATIONAL` format is enabled, will detect and will automatically change the selected country according to number entered. |

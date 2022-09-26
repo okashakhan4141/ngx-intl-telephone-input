@@ -1,6 +1,6 @@
 {
   "name": "ngx-intl-telephone-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Angular plugin for telephone input that validates phone numbers and provides both national and international formatting.",
   "keywords": [
     "international",
