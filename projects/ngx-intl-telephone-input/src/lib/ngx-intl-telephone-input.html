@@ -1,7 +1,6 @@
 <div class="input-container">
   <div class="dropdown" type="button">
     <div class="dropdown__actions" (click)="toggleDropdown()">
-      <!-- <img class="flag" src="{{ selectedCountry.flagClass }}" alt="" /> -->
       <div class="flag-container">
         <div class="flag" [ngClass]="selectedCountry.flagClass || ''"></div>
       </div>
@@ -28,7 +27,6 @@
           *ngFor="let preferredCountry of preferredCountriesList"
           (click)="onCountrySelect(preferredCountry)"
         >
-          <!-- <img class="flag" src="{{ preferredCountry.flagClass }}" /> -->
           <div class="flag-container">
             <div
               class="flag"
@@ -46,7 +44,6 @@
           (click)="onCountrySelect(country)"
           id="{{ country.htmlId }}"
         >
-          <!-- <img class="flag" src="{{ country.flagClass }}" /> -->
           <div class="flag-container">
             <div class="flag" [ngClass]="country.flagClass || ''"></div>
           </div>
@@ -64,7 +61,7 @@
     [(ngModel)]="phoneNumber"
     (ngModelChange)="phoneValueChnaged($event)"
     placeholder="{{ selectedCountry.placeHolder }}"
-    class="phoneInput"
+    class="phoneInput {{cssClass}}"
     [ngClass]="{
       inValid: phoneValidation && !isInputValid
     }"

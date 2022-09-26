@@ -131,7 +131,6 @@
         [phoneValidation]="true"
         [numberFormat]="PhoneNumberFormat.International"
         [inputId]="'phone1'"
-        [assets]="customAssets"
         (onChange)="onInputChange($event)"
       >
       </intl-telephone-input>
@@ -156,13 +155,6 @@
       </intl-telephone-input>
     </div>
   </div>
-
-  <div
-    class="flag"
-    [ngClass]="{
-      flag__pk: class
-    }"
-  ></div>
 
   <svg
     id="clouds"

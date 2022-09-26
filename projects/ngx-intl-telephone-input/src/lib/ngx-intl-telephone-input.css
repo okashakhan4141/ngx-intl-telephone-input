@@ -7,20 +7,16 @@
 .input-container {
   display: flex;
   align-items: center;
-  /* height: 40px; */
   height: 35px;
   border: 1px solid rgb(186, 180, 180);
-  /* padding: 0px 5px; */
   padding-right: 5px;
 }
 
 .dropdown {
   display: flex;
   align-items: center;
-  /* height: 40px; */
   height: 35px;
   position: relative;
-  /* padding: 0px 5px; */
 }
 
 .dropdown__actions {
@@ -32,7 +28,6 @@
 .dorpdown__icon {
   width: 10px;
   height: 10px;
-  margin-left: 6px;
 }
 
 .dropdown__items {
@@ -42,11 +37,10 @@
   padding: 5px 3px;
   display: flex;
   flex-direction: column;
-  /* width: 250px; */
-  width: 260px;
+  width: 255px;
   max-height: 300px;
   position: absolute;
-  top: 42px;
+  top: 38px;
   left: -2px;
   z-index: 10;
 }
