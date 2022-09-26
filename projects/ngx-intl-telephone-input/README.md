@@ -8,7 +8,7 @@ It has a dropdown showing information about country flag, name and dial-code. De
 
 (Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details)
 
-![preview-intl-telephone-input](https://user-images.githubusercontent.com/71649242/190262842-94e5d702-e519-470d-818c-b08172ea8ee5.PNG)
+![intl-tel-input-preview](https://user-images.githubusercontent.com/71649242/192272682-79da66a5-26ee-492c-aad4-8aeb3771ed18.PNG)
 
 ## Dependencies
 
@@ -117,7 +117,7 @@ import {
 
 | Sr. | Parameters               | Data Type                  | Default Value                     | Description                                                                                                                                  |
 | --- | ------------------------ | -------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | cssClass                 | `string`                   | `'' `                             | Custom CSS Class that'll be added to phone number's input element.                                                                                         |
+| 01  | cssClass                 | `string`                   | `'' `                             | Custom CSS Class that'll be added to phone number's input element.                                                                           |
 | 02  | preferredCountries       | `(CountryISO)[]`           | `[]`                              | List of countries, that will appear at the top saperated by horizental line from all countries.                                              |
 | 03  | onlyCountries            | `(CountryISO)[]`           | `[]`                              | List of countries, that will appear in the dropdown. Preferred countries will depends upon this list.                                        |
 | 04  | enableAutoCountrySelect  | `boolean`                  | `true`                            | If `true` and `INTERNATIONAL` format is enabled, will detect and will automatically change the selected country according to number entered. |
