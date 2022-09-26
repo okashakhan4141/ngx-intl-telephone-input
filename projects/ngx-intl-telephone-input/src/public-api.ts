@@ -10,6 +10,3 @@ export * from './lib/ngx-intl-telephone-input.module';
 export * from './data/country-iso.enum';
 export * from './data/phoneNumberFormat.enum';
 export * from './data/searchCountryField.enum';
-
-// exporting models
-export * from './models/country';
