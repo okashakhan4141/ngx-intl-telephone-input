@@ -8,7 +8,7 @@ It has a dropdown showing information about country flag, name and dial-code. De
 
 (Refer to [OPTIONS](https://github.com/okashakhan4141/ngx-intel-telephone-input/blob/master/projects/ngx-intl-telephone-input/README.md#options) Section for more details)
 
-![preview-intl-telephone-input](https://user-images.githubusercontent.com/71649242/190262842-94e5d702-e519-470d-818c-b08172ea8ee5.PNG)
+![intl-tel-input-preview](https://user-images.githubusercontent.com/71649242/192272682-79da66a5-26ee-492c-aad4-8aeb3771ed18.PNG)
 
 ## Dependencies
 
